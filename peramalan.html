@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <!-- App Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App title -->
+        <title>STC.Collective</title>
+
+        <!--Morris Chart CSS -->
+        <link rel="stylesheet" href="plugins/morris/morris.css">
+
+        <!-- Switchery css -->
+        <link href="plugins/switchery/switchery.min.css" rel="stylesheet" />
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- Modernizr js -->
+        <script src="assets/js/modernizr.min.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container">
+
+                    <!-- LOGO -->
+                    <div class="topbar-left">
+                        <a href="home.html" class="logo">
+                           <i class="zmdi zmdi-group-work icon-c-logo"></i>
+                            <span>STC.Collective</span>
+                        </a>
+                    </div>
+                    <!-- End Logo container-->
+
+
+                    <div class="menu-extras navbar-topbar">
+
+                        <ul class="list-inline float-right mb-0">
+
+                            <li class="list-inline-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                            <li class="list-inline-item dropdown notification-list">
+                                <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="false" aria-expanded="false">
+                                    <img src="assets/images/users/avatar-11.jpg" alt="user" class="rounded-circle">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
+                                    <!-- item-->
+                                    <div class="dropdown-item noti-title">
+                                        <h5 class="text-overflow"><small>Welcome ! Bima</small> </h5>
+                                    </div>
+
+                                    <!-- item-->
+                                    
+
+                                    <!-- item-->
+                                   
+
+                                    <!-- item-->
+                                   
+
+                                    <!-- item-->
+                                    <a href="pages-login.html" class="dropdown-item notify-item">
+                                        <i class="zmdi zmdi-run"></i> <span>Logout</span>
+                                    </a>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div> <!-- end menu-extras -->
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+
+           <div class="navbar-custom">
+                <div class="container">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                       <ul class="navigation-menu">
+                            <li>
+                                <a href="home.html"><i class="zmdi zmdi-home"></i> <span> Home </span> </a>
+                            </li>
+							
+							
+							<li>
+                                <a href="penjualan.html"><i class="zmdi zmdi-mall"></i> <span> Penjualan </span> </a>
+                            </li>
+                                
+                           
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-format-list-bulleted"></i> <span>Laporan</span> </a>
+                                <ul class="submenu">
+                                    <li><a href="laporan_tabel.html">Tabel</a></li>
+                                    <li><a href="laporan_grafik.html">Grafik</a></li>
+                                </ul>
+                            </li>
+
+							<li>
+                                <a href="peramalan.html"><i class="zmdi zmdi-trending-up"></i> <span> Peramalan </span> </a>
+                            </li>
+							
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-folder"></i> <span> Master Data </span> </a>
+                                <ul class="submenu">
+                                    <li><a href="user_manajemen.html">User Manajemen</a></li>
+                                    <li><a href="produk.html">Produk</a></li>
+                                    <li><a href="brand.html">Brand</a></li>
+                                    <li><a href="kategori.html">Kategori</a></li>
+                                    <li><a href="tipe.html">Tipe</a></li>
+                                    <li><a href="warna.html">Warna</a></li>
+                                    <li><a href="jenis_kelamin.html">Jenis Kelamin</a></li>
+                                    <li><a href="ukuran.html">Ukuran</a></li>
+                                </ul>
+                            </li>
+
+                            
+
+                        </ul>
+                        <!-- End navigation menu  -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Navigation Bar-->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="wrapper">
+            <div class="container">
+
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <h4 class="page-title">PERAMALAN</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-box">
+
+                           
+                            <!-- end row -->
+							<div class="row">
+                               <div class="col-lg-12">
+								 <div class="row">
+											<div class="col-sm-12">
+											 <div class="page-title-box">
+											  <div class="btn-group float-right m-t-15">
+											   <button type="button" class="btn btn-primary waves-effect waves-light">Detail</button>
+											  </div>
+											
+											     <h4 class="header-title m-t-0">GRAFIK PERAMALAN PENJUALAN</h4>
+											  </div>
+											</div>
+								 </div>
+                                    <hr>
+                                    <div class="p-20">
+                                        <div class="text-center">
+                                            <ul class="list-inline chart-detail-list">
+                                                <li class="list-inline-item">
+                                                    <h6 style="color: #1bb99a;"><i class="zmdi zmdi-circle-o m-r-5"></i>Series A</h6>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <h6 style="color: #f1b53d;"><i class="zmdi zmdi-triangle-up m-r-5"></i>Series B</h6>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div id="morris-line-example" class="morris-chart" style="height: 300px;"></div>
+
+                                    </div>
+									<hr>
+                               </div>
+							
+                            </div>
+                        </div>
+						
+                            <!-- end row -->
+				 <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-box">
+								
+								<div class="row">
+											<div class="col-sm-12">
+											 <div class="page-title-box">
+											  <div class="btn-group float-right m-t-15">
+											   <button type="button" class="btn btn-primary waves-effect waves-light">Detail</button>
+											  </div>
+											
+											     <h4 class="header-title m-t-0">Optimasi Pengadaan Barang</h4>
+											  </div>
+											</div>
+								</div>
+								
+                           
+                           <hr>
+
+                            <table class="tablesaw table m-b-0" data-tablesaw-mode="swipe" data-tablesaw-sortable data-tablesaw-sortable-switch data-tablesaw-minimap data-tablesaw-mode-switch>
+                                <thead>
+                                <tr>
+                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="persist">Movie Title</th>
+                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col data-tablesaw-priority="3">Rank</th>
+                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2">Year</th>
+                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="1">Rating</th>
+                                    <th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="4">Gross</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Avatar</td>
+                                    <td>1</td>
+                                    <td>2009</td>
+                                    <td>83%</td>
+                                    <td>$2.7B</td>
+                                </tr>
+                                <tr>
+                                    <td>Titanic</td>
+                                    <td>2</td>
+                                    <td>1997</td>
+                                    <td>88%</td>
+                                    <td>$2.1B</td>
+                                </tr>
+                                <tr>
+                                    <td>The Avengers</td>
+                                    <td>3</td>
+                                    <td>2012</td>
+                                    <td>92%</td>
+                                    <td>$1.5B</td>
+                                </tr>
+                                <tr>
+                                    <td>Harry Potter and the Deathly Hallows—Part 2</td>
+                                    <td>4</td>
+                                    <td>2011</td>
+                                    <td>96%</td>
+                                    <td>$1.3B</td>
+                                </tr>
+                                <tr>
+                                    <td>Frozen</td>
+                                    <td>5</td>
+                                    <td>2013</td>
+                                    <td>89%</td>
+                                    <td>$1.2B</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron Man 3</td>
+                                    <td>6</td>
+                                    <td>2013</td>
+                                    <td>78%</td>
+                                    <td>$1.2B</td>
+                                </tr>
+                                <tr>
+                                    <td>Transformers: Dark of the Moon</td>
+                                    <td>7</td>
+                                    <td>2011</td>
+                                    <td>36%</td>
+                                    <td>$1.1B</td>
+                                </tr>
+                                <tr>
+                                    <td>The Lord of the Rings: The Return of the King</td>
+                                    <td>8</td>
+                                    <td>2003</td>
+                                    <td>95%</td>
+                                    <td>$1.1B</td>
+                                </tr>
+                                <tr>
+                                    <td>Skyfall</td>
+                                    <td>9</td>
+                                    <td>2012</td>
+                                    <td>92%</td>
+                                    <td>$1.1B</td>
+                                </tr>
+                                <tr>
+                                    <td>Transformers: Age of Extinction</td>
+                                    <td>10</td>
+                                    <td>2014</td>
+                                    <td>18%</td>
+                                    <td>$1.0B</td>
+                                </tr>
+                                </tbody>
+                            </table>
+							<hr>	
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div><!-- end col-->
+
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container -->
+
+
+            <!-- Footer -->
+            <footer class="footer">
+                STC.Collective
+            </footer>
+            <!-- End Footer -->
+
+
+
+            <!-- Right Sidebar -->
+            
+            <!-- /Right-bar -->
+
+
+
+        </div> <!-- End wrapper -->
+
+
+
+
+        
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="plugins/switchery/switchery.min.js"></script>
+
+        <!--Morris Chart-->
+        <script src="plugins/morris/morris.min.js"></script>
+        <script src="plugins/raphael/raphael.min.js"></script>
+        <script src="assets/pages/jquery.morris.init.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+    </body>
+</html>
